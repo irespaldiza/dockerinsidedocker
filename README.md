@@ -7,6 +7,7 @@ This project has two purposes, on the one hand, constitutes a proof of concept a
 ---
 
 To run this image you have to expose the Docker socket to your Docker CI container, by bind-mounting it with the flag -v.
-~~~ docker run -v /var/run/docker.sock:/var/run/docker.sock \
+~~~ 
+docker run -v /var/run/docker.sock:/var/run/docker.sock \
            -it irespaldiza/dockerinsidedocker
-           ~~~
+~~~
