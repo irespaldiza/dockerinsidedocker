@@ -1,4 +1,4 @@
-## Docker iside Docker
+## Docker inside Docker
 
 This Docker image allows you run Docker inside a Docker container. 
 This image of Docker is similar to the official [Docker image](https://github.com/docker-library/docker), generated from Debian instead of alpine linux.
